@@ -1,0 +1,30 @@
+.Button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.Button:first-of-type {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.Enter {
+    color: rgba(248, 226, 244, 0.979);
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 12px;
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    padding: 10px;
+    margin: 10px auto;
+    font-weight: bold;
+    display: block;
+}
